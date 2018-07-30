@@ -53,7 +53,7 @@ public class TaskService {
      * @return the persisted entity
      */
     public TaskDTO save(TaskDTO taskDTO) {
-   
+    	log.debug("Request to save Task : {}", taskDTO);
     	return taskDTO;
     }
 
